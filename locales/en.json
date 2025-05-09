@@ -1,0 +1,73 @@
+{
+  "home": "Home",
+  "liveCasino": "Live Casino",
+  "slots": "Slots",
+  "sports": "Sports",
+  "promotions": "Promotions",
+  "vip": "VIP",
+  "contactUs": "Contact Us",
+  "faq": "FAQ",
+  "banking": "Banking",
+  "responsibleGaming": "Responsible Gaming",
+  "termsAndConditions": "Terms & Conditions",
+  "privacyPolicy": "Privacy Policy",
+  "home": {
+    "hero": {
+      "title": "Slot Welcome Bonus",
+      "subtitle": "Up to MYR 2880",
+      "steps": {
+        "register": "Register",
+        "deposit": "Deposit",
+        "play": "Play",
+        "withdraw": "Withdraw"
+      },
+      "cta": "Join Now"
+    },
+    "liveCasino": {
+      "title": "Live Casino Experience",
+      "subtitle": "Experience the thrill of real-time gaming with our professional live dealers",
+      "viewAll": "View All Live Games",
+      "playNow": "Play Now",
+      "games": {
+        "baccaratVIP": {
+          "title": "Baccarat VIP",
+          "description": "Exclusive high-stakes baccarat tables with professional dealers"
+        },
+        "roulettePro": {
+          "title": "Roulette Pro",
+          "description": "Experience the thrill of professional roulette with multiple camera angles"
+        },
+        "blackjackElite": {
+          "title": "Blackjack Elite",
+          "description": "Premium blackjack tables with side bets and VIP service"
+        }
+      }
+    },
+    "slots": {
+      "title": "Popular Slot Games",
+      "subtitle": "Discover our wide selection of exciting slot games with massive jackpots",
+      "viewAll": "View All Slot Games",
+      "playNow": "Play Now"
+    },
+    "welcome": {
+      "title": "The Best Online Casino in Malaysia",
+      "description": "MMC996 offers the ultimate online casino experience with a wide range of games, secure transactions, and exceptional customer service. Join thousands of satisfied players and discover why we're Malaysia's premier gaming destination.",
+      "cta": "Join Now & Get Welcome Bonus"
+    },
+    "footer": {
+      "about": "MMC996 is Malaysia's premier online casino offering a wide range of games including slots, live casino, sports betting and more.",
+      "quickLinks": "Quick Links",
+      "helpFaq": "Help & FAQs",
+      "gameProviders": "Game Providers",
+      "paymentMethods": "Payment Methods",
+      "copyright": "© 2025 MMC996. All rights reserved. Licensed and regulated by the Gaming Authority."
+    }
+  },
+  "popularSlotGames": "Popular Slot Games",
+  "slotGamesDescription": "Discover our most popular slot games with amazing graphics and exciting bonus features.",
+  "playNow": "Play Now",
+  "viewAllSlotGames": "View All Slot Games",
+  "liveCasinoExperience": "Live Casino Experience",
+  "liveCasinoDescription": "Experience the thrill of a real casino from the comfort of your home with our live dealer games.",
+  "viewAllLiveGames": "View All Live Games"
+}

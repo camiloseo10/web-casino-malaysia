@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+@layer components {
+  .btn-gold {
+    @apply bg-casino-gold hover:bg-casino-darkgold text-black font-bold py-2 px-6 rounded-md transition-all duration-300;
+  }
+
+  .btn-red {
+    @apply bg-transparent border-2 border-casino-gold text-casino-gold font-bold py-2 px-6 rounded-full hover:bg-casino-gold hover:text-black transition-colors;
+  }
+
+  .btn-outline-gold {
+    @apply bg-transparent hover:bg-casino-gold/10 text-casino-gold border border-casino-gold px-4 py-2 rounded-md text-sm font-medium transition-all duration-300;
+  }
+}

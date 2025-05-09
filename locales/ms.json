@@ -1,0 +1,73 @@
+{
+  "home": "Laman Utama",
+  "liveCasino": "Kasino Langsung",
+  "slots": "Slot",
+  "sports": "Sukan",
+  "promotions": "Promosi",
+  "vip": "VIP",
+  "contactUs": "Hubungi Kami",
+  "faq": "Soalan Lazim",
+  "banking": "Perbankan",
+  "responsibleGaming": "Perjudian Bertanggungjawab",
+  "termsAndConditions": "Terma & Syarat",
+  "privacyPolicy": "Dasar Privasi",
+  "home": {
+    "hero": {
+      "title": "Bonus Selamat Datang Slot",
+      "subtitle": "Sehingga MYR 2880",
+      "steps": {
+        "register": "Daftar",
+        "deposit": "Deposit",
+        "play": "Main",
+        "withdraw": "Pengeluaran"
+      },
+      "cta": "Sertai Sekarang"
+    },
+    "liveCasino": {
+      "title": "Pengalaman Kasino Langsung",
+      "subtitle": "Rasai keseronokan permainan masa nyata dengan dealer profesional kami",
+      "viewAll": "Lihat Semua Permainan Langsung",
+      "playNow": "Main Sekarang",
+      "games": {
+        "baccaratVIP": {
+          "title": "Baccarat VIP",
+          "description": "Meja baccarat eksklusif dengan taruhan tinggi dan dealer profesional"
+        },
+        "roulettePro": {
+          "title": "Roulette Pro",
+          "description": "Rasai keseronokan roulette profesional dengan pelbagai sudut kamera"
+        },
+        "blackjackElite": {
+          "title": "Blackjack Elite",
+          "description": "Meja blackjack premium dengan taruhan sampingan dan perkhidmatan VIP"
+        }
+      }
+    },
+    "slots": {
+      "title": "Permainan Slot Popular",
+      "subtitle": "Temui pelbagai pilihan permainan slot menarik dengan jackpot besar",
+      "viewAll": "Lihat Semua Permainan Slot",
+      "playNow": "Main Sekarang"
+    },
+    "welcome": {
+      "title": "Kasino Dalam Talian Terbaik di Malaysia",
+      "description": "MMC996 menawarkan pengalaman kasino dalam talian terbaik dengan pelbagai permainan, transaksi selamat, dan perkhidmatan pelanggan yang cemerlang. Sertai ribuan pemain yang berpuas hati dan temui mengapa kami adalah destinasi permainan utama di Malaysia.",
+      "cta": "Sertai Sekarang & Dapatkan Bonus Selamat Datang"
+    },
+    "footer": {
+      "about": "MMC996 adalah kasino dalam talian terkemuka di Malaysia yang menawarkan pelbagai permainan termasuk slot, kasino langsung, pertaruhan sukan dan banyak lagi.",
+      "quickLinks": "Pautan Pantas",
+      "helpFaq": "Bantuan & Soalan Lazim",
+      "gameProviders": "Pembekal Permainan",
+      "paymentMethods": "Kaedah Pembayaran",
+      "copyright": "© 2025 MMC996. Hak cipta terpelihara. Dilesenkan dan dikawal selia oleh Pihak Berkuasa Perjudian."
+    }
+  },
+  "popularSlotGames": "Permainan Slot Popular",
+  "slotGamesDescription": "Temui permainan slot paling popular kami dengan grafik yang menakjubkan dan ciri bonus yang menarik.",
+  "playNow": "Main Sekarang",
+  "viewAllSlotGames": "Lihat Semua Permainan Slot",
+  "liveCasinoExperience": "Pengalaman Kasino Langsung",
+  "liveCasinoDescription": "Alami keseronokan kasino sebenar dari keselesaan rumah anda dengan permainan dealer langsung kami.",
+  "viewAllLiveGames": "Lihat Semua Permainan Langsung"
+}
