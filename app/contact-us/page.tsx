@@ -5,7 +5,7 @@ import HeroSection from "@/components/hero-section"
 import Footer from "@/components/footer"
 import LanguageSwitcher from "@/components/language-switcher"
 
-export default function ContactUs() {
+export default function ContactPage() {
   return (
     <SidebarMenuLayout>
       <div className="py-6">
@@ -18,61 +18,56 @@ export default function ContactUs() {
           subtitle="We're here to help. Reach out to us through any of the channels below."
         />
 
-        <section className="max-w-3xl mx-auto px-4 mt-10 space-y-6 text-sm leading-relaxed text-gray-300">
-          <h2 className="text-lg font-semibold text-white">1. Customer Support</h2>
-          <p>
-            Our support team is available 24/7 to assist you with any inquiries or issues. Whether you have questions about your account, games, or transactions, we're here to help.
-          </p>
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto px-4 py-8 text-sm text-gray-300">
+          {/* Contact Form */}
+          <div>
+            <h2 className="text-lg font-semibold text-white mb-4">Send us a message</h2>
+            <form className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-white">Name</label>
+                <input type="text" className="w-full rounded-md bg-casino-dark border-gray-600 text-white focus:border-casino-gold focus:ring-casino-gold" />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-white">Email</label>
+                <input type="email" className="w-full rounded-md bg-casino-dark border-gray-600 text-white focus:border-casino-gold focus:ring-casino-gold" />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-white">Message</label>
+                <textarea rows={4} className="w-full rounded-md bg-casino-dark border-gray-600 text-white focus:border-casino-gold focus:ring-casino-gold"></textarea>
+              </div>
+              <button type="submit" className="px-4 py-2 border border-casino-gold text-casino-gold rounded-md hover:bg-casino-gold hover:text-black">
+                Send Message
+              </button>
+            </form>
+          </div>
 
-          <h2 className="text-lg font-semibold text-white">2. Contact Channels</h2>
-          <ul className="list-disc list-inside space-y-2">
-            <li><strong>Live Chat:</strong> Available directly on our website for instant support.</li>
-            <li><strong>Email:</strong> support@mmc996.com</li>
-            <li><strong>WhatsApp:</strong> +60 123 456 789</li>
-            <li><strong>WeChat:</strong> mmc996support</li>
-          </ul>
+          {/* Contact Info */}
+          <div>
+            <h2 className="text-lg font-semibold text-white mb-4">Contact Information</h2>
+            <ul className="space-y-2">
+              <li><strong>Live Chat:</strong> Available on our website</li>
+              <li><strong>Email:</strong> support@mmc996.com</li>
+              <li><strong>WhatsApp:</strong> +60 123 456 789</li>
+              <li><strong>WeChat:</strong> mmc996support</li>
+            </ul>
+          </div>
+        </section>
 
-          <h2 className="text-lg font-semibold text-white">3. Feedback & Suggestions</h2>
-          <p>
-            We value your feedback. If you have suggestions to improve our services or your experience, feel free to share them with us.
-          </p>
-
-          <h2 className="text-lg font-semibold text-white">4. General Inquiries Form</h2>
-          <form className="space-y-4">
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-white">Name</label>
-              <input
-                type="text"
-                id="name"
-                className="mt-1 block w-full rounded-md bg-casino-dark border-gray-600 text-white shadow-sm focus:border-casino-gold focus:ring-casino-gold sm:text-sm"
-              />
-            </div>
-
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-white">Email</label>
-              <input
-                type="email"
-                id="email"
-                className="mt-1 block w-full rounded-md bg-casino-dark border-gray-600 text-white shadow-sm focus:border-casino-gold focus:ring-casino-gold sm:text-sm"
-              />
-            </div>
-
-            <div>
-              <label htmlFor="message" className="block text-sm font-medium text-white">Message</label>
-              <textarea
-                id="message"
-                rows={4}
-                className="mt-1 block w-full rounded-md bg-casino-dark border-gray-600 text-white shadow-sm focus:border-casino-gold focus:ring-casino-gold sm:text-sm"
-              ></textarea>
-            </div>
-
-            <button
-              type="submit"
-              className="inline-flex items-center px-4 py-2 border border-casino-gold text-casino-gold rounded-md hover:bg-casino-gold hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-casino-gold"
-            >
-              Send Message
-            </button>
-          </form>
+        {/* FAQ Section */}
+        <section className="max-w-3xl mx-auto px-4 py-8 space-y-6 text-sm text-gray-300">
+          <h2 className="text-lg font-semibold text-white">Frequently Asked Questions</h2>
+          <div>
+            <h3 className="font-semibold text-white">How can I reset my password?</h3>
+            <p>Click on “Forgot Password” on the login page and follow the instructions sent to your email.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-white">Where can I check my deposit history?</h3>
+            <p>Login to your account and go to “Transaction History” under your profile dashboard.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-white">How long does it take to process withdrawals?</h3>
+            <p>Withdrawals are typically processed within 24 hours, depending on the payment method used.</p>
+          </div>
         </section>
 
         <Footer />
