@@ -121,7 +121,7 @@ export default function Footer() {
             <h3 className="text-white font-bold text-lg mb-4">Help & FAQs</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/contact-us" className="text-gray-400 hover:text-casino-gold">
+                <Link href="/contact" className="text-gray-400 hover:text-casino-gold">
                   Contact Us
                 </Link>
               </li>
