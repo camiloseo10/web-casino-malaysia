@@ -66,7 +66,7 @@ export default function GameProviders() {
               <Image
                 src={method.logo}
                 alt={method.name}
-                width={100}
+                width={120}
                 height={40}
                 className="object-contain"
               />

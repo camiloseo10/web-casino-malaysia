@@ -5,19 +5,7 @@ import Link from "next/link"
 import { useLanguage } from "@/contexts/language-context"
 
 const gameProviders = [
-  {
-    name: "Evolution Gaming",
-    logo: "/logos/evolution-gaming.png",
-  },
-  {
-    name: "Pragmatic Play",
-    logo: "/logos/pragmatic-play.png",
-  },
-  {
-    name: "SpadeGaming",
-    logo: "/logos/spadegaming.png",
-  },
-  {
+    {
     name: "JILI",
     logo: "/logos/jili.png",
   },
@@ -133,32 +121,32 @@ export default function Footer() {
             <h3 className="text-white font-bold text-lg mb-4">Help & FAQs</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-gray-400 hover:text-casino-gold">
+                <Link href="/contact-us" className="text-gray-400 hover:text-casino-gold">
                   Contact Us
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-casino-gold">
+                <Link href="/faq" className="text-gray-400 hover:text-casino-gold">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-casino-gold">
+                <Link href="/banking" className="text-gray-400 hover:text-casino-gold">
                   Banking
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-casino-gold">
+                <Link href="/responsible-gaming" className="text-gray-400 hover:text-casino-gold">
                   Responsible Gaming
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-casino-gold">
+                <Link href="/terms-and-conditions" className="text-gray-400 hover:text-casino-gold">
                   Terms & Conditions
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-casino-gold">
+                <Link href="/privacy-policy" className="text-gray-400 hover:text-casino-gold">
                   Privacy Policy
                 </Link>
               </li>
@@ -170,7 +158,7 @@ export default function Footer() {
             <div className="grid grid-cols-3 gap-2 justify-start">
               {gameProviders.map((provider) => (
                 <div key={provider.name} className="flex items-center justify-start">
-                  <img src={provider.logo} alt={provider.name} className="h-12 w-auto object-contain" />
+                  <img src={provider.logo} alt={provider.name} className="logo-auto-fit" />
                 </div>
               ))}
 
@@ -181,7 +169,7 @@ export default function Footer() {
             <div className="grid grid-cols-4 gap-2 justify-start">
               {paymentMethods.map((method) => (
                 <div key={method.name} className="flex items-center justify-start">
-                  <img src={method.logo} alt={method.name} className="h-12 w-auto object-contain" />
+                  <img src={method.logo} alt={method.name} className="logo-auto-fit" />
                 </div>
               ))}
 
