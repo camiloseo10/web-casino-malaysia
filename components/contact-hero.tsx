@@ -18,11 +18,11 @@ export default function ContactHero({
 
   const displayTitle = title || (
     <>
-      <span className="text-casino-gold">24/7</span> {t("contact.hero.title")}
+      <span className="text-casino-gold">24/7</span> {t("Contact Us")}
     </>
   )
 
-  const displaySubtitle = subtitle || t("contact.hero.subtitle")
+  const displaySubtitle = subtitle || t("Online support for players")
 
   return (
     <div className="relative bg-casino-dark rounded-lg overflow-hidden mx-4">
@@ -63,13 +63,13 @@ export default function ContactHero({
             href="#contact-form"
             className="bg-transparent border-2 border-casino-gold text-casino-gold font-bold py-2 px-6 rounded-full hover:bg-casino-gold hover:text-black transition-colors"
           >
-            {t("contact.hero.cta.contact")}
+            {t("Contact Us")}
           </a>
           <a
             href="#live-chat"
             className="bg-transparent border-2 border-casino-gold text-casino-gold font-bold py-2 px-6 rounded-full hover:bg-casino-gold hover:text-black transition-colors"
           >
-            {t("contact.hero.cta.livechat")}
+            {t("Live chat")}
           </a>
         </motion.div>
       </div>
