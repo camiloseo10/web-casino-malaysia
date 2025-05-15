@@ -10,7 +10,7 @@ type ContactHeroProps = {
 }
 
 export default function ContactHero({
-  backgroundImage = "/contact-casino.png",
+  backgroundImage = "/images/contact-casino.png",
   title,
   subtitle,
 }: ContactHeroProps) {
